@@ -1,0 +1,44 @@
+/* Main container */
+.draggable-container {
+  margin-bottom: 20px;
+}
+
+/* Individual user card */
+.user-card {
+  margin-bottom: 20px;
+}
+
+/* User card body */
+.user-card-body {
+  display: flex;
+  align-items: center;
+}
+
+/* User image */
+.user-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* User details */
+.user-details {
+  flex-grow: 1;
+}
+
+/* Droppable container */
+.droppable-container {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+
+
+@media only screen and (min-width: 720px) {
+  .dragtext {
+    width: max-content;
+  }
+}
